@@ -30,6 +30,7 @@ The Lead Maintainer is the project's interface with the FINOS team and Board. Th
 | @willosborne      | Will Osborne             | Morgan Stanley        | willfosborne@gmail.com           |
 | @YoofiTT96        | Joseph Yoofi Brown-Pobee | turntabl              | yoofi.brownpobee@outlook.com     |
 | @yt-ms            | Yan                      | Morgan Stanley        | yan.tordoff@morganstanley.com    |
+| @byrash           | Shivaji Byrapaneni       | Fidelity Investements | shivaji.byrapaneni@gmail.com     |
 
 For information about maintainer responsibilities and resources, see the [FINOS Maintainers Cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet).
 
