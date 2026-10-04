@@ -24,7 +24,6 @@ The Lead Maintainer is the project's interface with the FINOS team and Board. Th
 | @lbulanti-ms      | Luigi Bulanti            | Morgan Stanley        | bulantiluigi@gmail.com           |
 | @LeighFinegold    | LeighF                   | Morgan Stanley        | leigh_finegold@hotmail.co.uk     |
 | @markscott-ms     | Mark Scott               | Morgan Stanley        | markscot@morganstanley.com       |
-| @opsflowanoop     | Anoop Mehendale          | Opsflow               | anoop@opsflow.sh                 |
 | @rocketstack-matt | Matthew Bain             | Morgan Stanley        | matt@rocketstack.co              |
 | @Thels            | Ross Maden               | Morgan Stanley        | ross.maden@morganstanley.com     |
 | @willosborne      | Will Osborne             | Morgan Stanley        | willfosborne@gmail.com           |
