@@ -1,0 +1,116 @@
+# Copyright 2026 FINOS
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+header:
+  schema-version: 2.2.0
+  last-updated: '2026-10-06'
+  last-reviewed: '2026-10-06'
+  url: https://raw.githubusercontent.com/finos/calm-governance/main/security-insights.yml
+  project-si-source: https://raw.githubusercontent.com/finos/architecture-as-code/main/security-insights.yml
+  comment: |
+    finos/calm-governance holds the project-wide governance documents of the
+    Architecture as Code (CALM) project. It contains no code and makes no
+    releases. The project-level file is project-si-source; the project section
+    below repeats it for tools that read only this repository.
+
+project:
+  name: Architecture as Code (CALM)
+  homepage: https://calm.finos.org
+  roadmap: https://roadmapper.rocketstack.co/view/finos/architecture-as-code/ffffff/24292f
+  administrators:
+    - name: rocketstack-matt
+      primary: true
+    - name: jpgough-ms
+      primary: false
+    - name: markscott-ms
+      primary: false
+  documentation:
+    quickstart-guide: https://calm.finos.org/tutorials/
+    detailed-guide: https://calm.finos.org/
+    design: https://calm.finos.org/core-concepts/
+    code-of-conduct: https://www.finos.org/code-of-conduct
+    release-process: https://github.com/finos/architecture-as-code/blob/main/CONTRIBUTING.md#-why-we-use-semantic-release
+    support-policy: https://github.com/finos/architecture-as-code/blob/main/SUPPORT.md
+    signature-verification: https://github.com/finos/architecture-as-code/blob/main/SECURITY.md#verifying-release-integrity-and-authenticity
+  repositories:
+    - name: architecture-as-code
+      url: https://github.com/finos/architecture-as-code
+      comment: |
+        CALM tooling: CLI, CALM Hub, CALM Server, VS Code extension and docs.
+        Status: Active.
+    - name: calm-schema
+      url: https://github.com/finos/calm-schema
+      comment: |
+        CALM JSON Schema, published to npm as @finos/calm-schema.
+        Status: Active.
+    - name: calm-governance
+      url: https://github.com/finos/calm-governance
+      comment: |
+        This repository. Project-wide governance, maintainer roster and
+        contribution guidelines. Documentation only; no releases.
+        Status: Active.
+  vulnerability-reporting:
+    reports-accepted: true
+    bug-bounty-available: false
+    contact:
+      name: Architecture as Code Maintainers
+      primary: true
+    policy: https://github.com/finos/calm-governance/blob/main/SECURITY.md
+    comment: |
+      GitHub private vulnerability reporting is enabled on this repository;
+      use the "Report a vulnerability" action under the Security tab.
+
+repository:
+  url: https://github.com/finos/calm-governance
+  status: active
+  accepts-change-request: true
+  accepts-automated-change-request: true
+  core-team:
+    - name: rocketstack-matt
+      primary: true
+    - name: jpgough-ms
+      primary: false
+    - name: markscott-ms
+      primary: false
+  documentation:
+    contributing-guide: https://github.com/finos/calm-governance/blob/main/CONTRIBUTING.md
+    governance: https://github.com/finos/calm-governance/blob/main/GOVERNANCE.md
+    review-policy: https://github.com/finos/calm-governance/blob/main/GOVERNANCE.md#contribution-rules
+    security-policy: https://github.com/finos/calm-governance/blob/main/SECURITY.md
+  license:
+    url: https://github.com/finos/calm-governance/blob/main/LICENSE
+    expression: Apache-2.0
+  security:
+    assessments:
+      self:
+        name: Threat model and attack surface analysis
+        date: '2026-10-03'
+        evidence: https://github.com/finos/architecture-as-code/blob/main/THREAT_MODEL.md
+        comment: |
+          Project-wide threat model. This repository holds documents only, with
+          no code, dependencies, build or release.
+    tools:
+      - name: GitHub Secret Scanning
+        type: secret-scanning
+        comment: |
+          GitHub secret scanning with push protection, enabled in the repository
+          security settings. The setting is visible only to repository admins, so
+          it is declared here for unprivileged assessments (OSPS-BR-07.01).
+        rulesets:
+          - default
+        integration:
+          adhoc: true
+          ci: false
+          release: false
+        results: {}

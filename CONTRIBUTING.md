@@ -56,7 +56,7 @@ To make review of pull requests easier, please:
 * Keep commits small and cohesive — if you have multiple contributions, please submit them as independent commits, and ideally as independent pull requests too.
 * Reference issues if your pull request has anything to do with an issue, even if it doesn't address it.
 * Minimise non-functional changes, such as whitespace.
-* Ensure all new files include a header comment block containing the [Apache License v2.0 and your copyright information](http://www.apache.org/licenses/LICENSE-2.0#apply).
+* Ensure all new files include a header comment block containing the [Apache License v2.0 and your copyright information](https://www.apache.org/licenses/LICENSE-2.0#apply).
 * If necessary — for example, due to third-party dependency licensing requirements — update the repository's `NOTICE` file with any new attribution or other notices.
 
 ### Commit and pull request messages
