@@ -15,7 +15,6 @@ The Lead Maintainer is the project's interface with the FINOS team and Board. Th
 | @aamanrebello     | Aaman Rebello            | Morgan Stanley        | aaman.rebello@morganstanley.com  |
 | @aidanm3341       | Aidan McPhelim           | Morgan Stanley        | aidan.mcphelim@morganstanley.com |
 | @Budlee           | Matthew Auburn           | Morgan Stanley        | matthew.auburn@morganstanley.com |
-| @dc-ms            | Denis Coffaro            | Morgan Stanley        | denis.coffaro@morganstanley.com  |
 | @eddie-knight     | Eddie Knight             | Revanite Incorporated | knight@linux.com                 |
 | @gjs-opsflo       | Gourav J. Shah           | OpsFlow.Sh            | gjs@opsflow.sh                   |
 | @grahampacker-ms  | Graham Packer            | Morgan Stanley        | graham.packer@morganstanley.com  |
