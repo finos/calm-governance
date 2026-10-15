@@ -12,15 +12,9 @@ FINOS publishes a **Technical Charter** for the project as a PDF at the root of 
 
 ## Contribution Requirements
 
-Contributions are accepted via git pull requests. Each commit must include a Developer Certificate of Origin sign-off line in the commit message:
+Contributions are accepted via git pull requests. All pull requests to the project's repositories, including `calm-governance`, `calm-schema` and `architecture-as-code`, require the contributor to have signed a Contributor License Agreement (CLA) via [EasyCLA](https://community.finos.org/docs/governance/Software-Projects/easycla). The EasyCLA check runs automatically on each pull request and will guide you through signing if you have not already done so, either as an individual or under your employer's corporate CLA.
 
-```
-Signed-off-by: GitHub User Name <your.email@example.com>
-```
-
-This sign-off means you agree the commit satisfies the [Developer Certificate of Origin (DCO)](https://developercertificate.org/). `git commit -s` adds it for you.
-
-Some repositories additionally require a CLA via [EasyCLA](https://community.finos.org/docs/governance/Software-Projects/easycla). Please read the [FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements) before opening a pull request. Questions about CLA, DCO or EasyCLA can go to [help@finos.org](mailto:help@finos.org).
+Please read the [FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements) before opening a pull request. Questions about the CLA or EasyCLA can go to [help@finos.org](mailto:help@finos.org).
 
 ## Contribution Process
 

@@ -44,9 +44,9 @@ Amendments to [GOVERNANCE.md](GOVERNANCE.md) require a vote of the Maintainers, 
 
 Security vulnerabilities must be reported privately rather than raised as issues — see [SECURITY.md](SECURITY.md).
 
-_NOTE:_ Pull requests must follow this repository’s contribution policy. FINOS projects typically use **DCO** (signed commits) and/or **CLA** via [EasyCLA](https://community.finos.org/docs/governance/Software-Projects/easycla), depending on configuration. Read [FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements) before contributing.
+_NOTE:_ All pull requests require a signed **CLA** via [EasyCLA](https://community.finos.org/docs/governance/Software-Projects/easycla). Read [FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements) before contributing.
 
-*Questions about CLA, DCO, or EasyCLA? Email [help@finos.org](mailto:help@finos.org)*
+*Questions about the CLA or EasyCLA? Email [help@finos.org](mailto:help@finos.org)*
 
 ## License
 
