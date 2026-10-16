@@ -21,7 +21,7 @@ Please read the [FINOS Contribution Requirements](https://community.finos.org/do
 Before making a contribution, please take the following steps:
 
 1. Check whether there's already an open issue related to your proposed contribution. If there is, join the discussion and propose your contribution there.
-2. If there isn't already a relevant issue, create one, describing your contribution and the problem you're trying to solve. **We strongly recommend an issue for every new feature and every non-trivial change.**
+2. If there isn't already a relevant issue, create one, describing your contribution and the problem you're trying to solve. Keep the issue concise, and state its purpose or user story. **We strongly recommend an issue for every new feature and every non-trivial change.**
 3. Respond to any questions or suggestions raised in the issue by other developers. Agree the purpose and design in the issue, or at the weekly Office Hours, before you start the work. When the scope is agreed, a maintainer adds the `scope-agreed` label.
 4. Fork the project repository and prepare your proposed contribution.
 5. Submit a pull request that references the issue.
@@ -30,7 +30,7 @@ Before making a contribution, please take the following steps:
 
 An agreed issue prevents wasted effort for you and for reviewers. Review can then focus on the code, not on whether the change is wanted or how to design it.
 
-A pull request without an issue is not rejected automatically. But without an agreed issue, maintainers can challenge the purpose or the design of your change at review, or decline it, even when the code is good. A proof of concept can help the discussion, but expect its design to change.
+A pull request without an issue is not rejected automatically. But without an agreed issue, maintainers can challenge the purpose or the design of your change at review, or decline it, even when the code is good. If this occurs, do not be offended: the project must first agree that it wants the change. A proof of concept can help the discussion, but expect its design to change.
 
 Small, clear fixes, such as typos or obvious bugs, do not need an issue first.
 
